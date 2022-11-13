@@ -14,7 +14,7 @@ Pull down the source code by cloning the git repository:
 
 Navigate to the project directory, create a fresh virtual environment and activate it:
 
-```
+```bash
 > cd Social-Media-Api
 
 > pip install virtualenv
@@ -26,13 +26,13 @@ Navigate to the project directory, create a fresh virtual environment and activa
 
 Install the python packages specified in requirements.txt:
 
-```
+```bash
 (venv) > pip install -r requirements.txt
 ```
 
 Finally, run the app, using the `run.py` file present in the project directory:
 
-```
+```bash
 > python run.py
 ```
 
