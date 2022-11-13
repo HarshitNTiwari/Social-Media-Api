@@ -7,28 +7,34 @@ You can either use the hosted API: https://social-media-api-503f.onrender.com or
 
 Pull down the source code by cloning the git repository:
 
-`> git clone https://github.com/HarshitNTiwari/Social-Media-Api.git`
+```
+> git clone https://github.com/HarshitNTiwari/Social-Media-Api.git
+```
 
 
 Navigate to the project directory, create a fresh virtual environment and activate it:
 
-`> cd Social-Media-Api`
+```
+> cd Social-Media-Api
 
-`> pip install virtualenv`
+> pip install virtualenv
 
-`> virtualenv venv`
+> virtualenv venv
 
-`> call venv/Scripts/activate`
-
+> call venv/Scripts/activate
+```
 
 Install the python packages specified in requirements.txt:
 
-`(venv) > pip install -r requirements.txt`
-
+```
+(venv) > pip install -r requirements.txt
+```
 
 Finally, run the app, using the `run.py` file present in the project directory:
 
-`> python run.py`
+```
+> python run.py
+```
 
 This will run the application on the Flask development server in debug mode.
 
